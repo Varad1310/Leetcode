@@ -4,8 +4,6 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
-        if n<0:
-            return False
         if n==0:
             return False
         while(n%4==0):
